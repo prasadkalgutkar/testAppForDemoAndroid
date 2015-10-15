@@ -43,13 +43,21 @@
             android:visibility="invisible"
             android:text="Default Text"/>
 
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:id="@+id/login_btn"
-            android:onClick="Login"
-            android:text="Login"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/login_btn"
+                android:layout_marginTop="20dp"
+                android:onClick="Login"
+                android:text="Login"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/clearData"
+                android:onClick="Clear"
+                android:text="Clear"/>
 
     </LinearLayout>
 

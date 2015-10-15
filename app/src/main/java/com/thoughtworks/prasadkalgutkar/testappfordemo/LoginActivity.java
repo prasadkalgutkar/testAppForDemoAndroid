@@ -58,4 +58,16 @@ public class LoginActivity extends ActionBarActivity {
             error.setText("Please enter a valid username");
         }
     }
+
+    public void Clear(View view){
+        EditText username = (EditText) findViewById(R.id.username);
+        EditText password = (EditText) findViewById(R.id.password);
+
+        TextView error = (TextView) findViewById(R.id.error);
+
+        username.setText("");
+        password.setText("");
+        error.setText("");
+    }
+
 }
